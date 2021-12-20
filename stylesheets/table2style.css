@@ -1,0 +1,22 @@
+body {
+    background-color: #fff;
+}
+h1, h2 {
+    text-align: center;
+}
+
+.myform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mydata {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table, th, td {
+    border:1px solid black;
+  }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ong Nhu't Bill thing</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheets/table2style.css">
+</head>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="difftable.html">Table 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+<body onload="load()">
+    <h1>This is a different table</h1>
+    <div class="myform">
+    
+    <table>
+        <tr>
+            <td><b>Verizon:</b></td>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <td><b>Amazon:</b></td>
+            <td><input type="text" id="age">
+            
+        </tr>
+        <tr>
+            <td><b>Apple:</b></td>
+            <td><input type="text" id="apple">
+            <input type="button" id="add" value="Add" onclick="Javascript:addRow()"></td>
+        </tr>
+    </table>
+    </div>
+    &nbsp;
+    &nbsp;
+    <div class="mydata">
+    
+    <table id="myTableData"  border="1" cellpadding="2">
+        <tr>
+            <td>&nbsp;</td>
+            <td><b>Verizon</b></td>
+            <td><b>Amazon</b></td>
+            <td><b>Apple</b></td>
+        </tr>
+    </table>
+    &nbsp;
+
+    <!--
+    </div>
+    <div id="myDynamicTable">
+    <input type="button" id="create" value="Click here" onclick="Javascript:addTable()">
+    to create a Table and add some data using JavaScript
+    </div>
+    -->
+<script src="scripts/apo.js" charset="utf-8"></script>
+</body>
+</html>
